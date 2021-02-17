@@ -1,0 +1,20 @@
+{
+    "name": "ixalsera/stave-bundle",
+    "description": "Simple dependency license attribution",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Ixalsera\\StaveBundle\\": "src/"
+        }
+    },
+    "readme": "README.md",
+    "require": {
+        "symfony/console": "^3.4 | ^4.4 | ^5.0",
+        "symfony/finder": "^3.4 | ^4.4 | ^5.0",
+        "symfony/serializer": "^3.4 | ^4.4 | ^5.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.4 | ^4.4 | ^5.0"
+    },
+    "license": "MIT"
+}
